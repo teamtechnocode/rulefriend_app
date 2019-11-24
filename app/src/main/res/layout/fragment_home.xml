@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rule_friend_icon"
+        android:layout_marginTop="50dp"/>
+
+    <SearchView
+        android:id="@+id/search_ques"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:queryHint="Search for Questions here..."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:iconifiedByDefault="false"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        android:layout_marginTop="208dp"
+        android:layout_marginStart="320dp"/>
+
+</RelativeLayout>
